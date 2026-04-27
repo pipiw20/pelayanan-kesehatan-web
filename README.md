@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏥 Pelayanan Kesehatan Web
 
-## Getting Started
+Aplikasi **Pelayanan Kesehatan Berbasis Web** yang dirancang untuk mempermudah proses pelayanan antara pasien dan tenaga kesehatan melalui sistem digital yang lebih cepat, efisien, dan terstruktur.
 
-First, run the development server:
+Project ini berfokus pada pengelolaan data pasien, jadwal layanan, serta integrasi sistem berbasis API untuk mendukung kebutuhan aplikasi secara real-time.
+
+---
+
+## ✨ Fitur Utama
+
+* 🔐 Login multi-user (Admin & User)
+* 👨‍⚕️ Manajemen data pasien
+* 📅 Booking jadwal konsultasi
+* 📝 Riwayat pemeriksaan pasien
+* 💊 Informasi resep obat
+* 📊 Dashboard admin
+* 🔗 Integrasi API untuk komunikasi data client-server
+* 📱 Tampilan responsif untuk desktop & mobile
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+* **Frontend:** React.js / Next.js
+* **Backend:** Node.js (REST API)
+* **Database:** MySQL / PostgreSQL
+* **ORM:** Prisma
+* **Styling:** Tailwind CSS
+* **Version Control:** Git & GitHub
+
+---
+
+## 🔗 API Highlight (Kontribusi Utama)
+
+Sebagai bagian dari tim, saya berfokus pada pengembangan **backend dan API**, meliputi:
+
+* Mendesain struktur REST API
+* Implementasi endpoint (CRUD data pasien, jadwal, dll)
+* Integrasi database menggunakan Prisma ORM
+* Validasi data request & response
+* Pengelolaan relasi antar data (pasien, jadwal, layanan)
+* Testing endpoint menggunakan tools seperti Postman
+
+Contoh endpoint:
+
+```bash
+GET    /api/patients
+POST   /api/patients
+PUT    /api/patients/:id
+DELETE /api/patients/:id
+```
+
+---
+
+## 🚀 Cara Menjalankan Project
+
+Clone repository:
+
+```bash
+git clone https://github.com/pipiw20/pelayanan-kesehatan-web.git
+```
+
+Masuk ke folder project:
+
+```bash
+cd pelayanan-kesehatan-web
+```
+
+Install dependency:
+
+```bash
+npm install
+```
+
+Jalankan project:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka browser:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📂 Struktur Folder
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+src/
+ ┣ components/
+ ┣ pages/
+ ┣ services/
+ ┣ styles/
+ ┣ utils/
+ ┗ api/        # endpoint backend
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Tujuan Project
 
-## Deploy on Vercel
+Project ini dibuat untuk:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* meningkatkan efisiensi pelayanan kesehatan
+* mempermudah pengelolaan data pasien
+* menyediakan sistem terintegrasi berbasis API
+* mendukung digitalisasi layanan kesehatan
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 👨‍💻 Peran Saya
+
+Dalam project ini saya berperan sebagai **Backend / API Developer**, dengan kontribusi:
+
+* Mendesain dan mengembangkan REST API
+* Mengelola koneksi database menggunakan Prisma
+* Mengatur alur data antara frontend dan backend
+* Menjamin konsistensi dan validasi data
+* Berkolaborasi dalam tim pengembangan sistem
+
+---
+
+## 📫 Kontak
+
+**Safira Muztasyifa Syah**
+
+* Email: [safira.syah28@gmail.com](mailto:safira.syah28@gmail.com)
+* GitHub: https://github.com/pipiw20
+* LinkedIn: linkedin.com/in/SafiraMuztasyifaSyah
+
+---
+
+⭐ Jika project ini menarik, jangan lupa berikan **star** pada repository ini.
